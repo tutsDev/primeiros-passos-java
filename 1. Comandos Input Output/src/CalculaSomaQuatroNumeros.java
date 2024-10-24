@@ -5,7 +5,7 @@ Calcule e imprima a soma desses números.
 
 import java.util.Scanner;
 
-public class SomaQuatroNumeros {
+public class CalculaSomaQuatroNumeros {
     
     public static void main(String[] args){
         
