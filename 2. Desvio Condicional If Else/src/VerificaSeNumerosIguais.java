@@ -1,6 +1,12 @@
+/*
+Faça um algoritmo que leia dois números inteiros.
+Se forem iguais, imprima "Os númros são iguais".
+Se não, imprima a diferença entre eles.
+*/
+
 import java.util.Scanner;
 
-public class NumerosIguais{
+public class VerificaSeNumerosIguais{
     
     public static void main(String[] args){
         

@@ -1,6 +1,13 @@
+/*
+Faça um algoritmo para ler um número inteiro.
+Verifique se o número está no intervalo entre 50 e 100.
+Se estiver, imprimir "Está no Intervalo"
+Se não, imprimir "Não prtence ao intervalo"
+*/
+
 import java.util.Scanner;
 
-public class Intervalo{
+public class VerificaSeEstaNoIntervalo{
     
     public static void main(String[] args){
         

@@ -1,6 +1,15 @@
+/*
+Faça um algoritmo que leia o salário de uma pessoa, calcula e 
+imprima o desconto do INSS de acordo com a tabela a seguir:
+<= R$600 - Isento
+> R$600 e <= R$1200 20%
+> R1200 e <= R$2000 25%
+<= R$2000
+*/
+
 import java.util.Scanner;
 
-public class DescontoInss{
+public class CalculaDescontoInss{
     public static void main(String[] args){
         
         Scanner input = new Scanner(System. in);

@@ -1,6 +1,16 @@
+/*
+Faça um algoritmo que receba a idade de um nadador e imprima a sua 
+categoria seguindo as regas:
+Infantil A - 5 a 7 Anos
+Infantil B - 8 a 10 Anos 
+Juvenil A - 11 a 13 Anos
+Juvenil B - 14 a 17 Anos
+Sênio - 18 Anos ou mais
+*/
+
 import java.util.Scanner;
 
-public class CategoriaNadador{
+public class VerificaCategoriaNadador{
     
     public static void main(String[] args){
         

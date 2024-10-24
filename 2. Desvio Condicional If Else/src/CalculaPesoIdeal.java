@@ -1,6 +1,14 @@
+/*
+Faça um algoritmo que leia a altura e o sexo de uma pessoa:
+Calcule e mostre seu peso ideal.
+Considere as seguintes forulas
+    - Masculino: (72.7 * altura) - 58;
+    - Feminino: (62.1 * altura) - 44.7;
+*/
+
 import java.util.Scanner;
 
-public class PesoIdeal{
+public class CalculaPesoIdeal{
     
     public static void main(String[] args) {
         

@@ -1,6 +1,13 @@
+/*
+Faça um algoritmo que verifique a validade de uma senha fornecida
+pelo usuário.
+- Sabendo q a senha é R10p5
+    Imprima a mensagem de "Acesso Concedido" ou "Acesso Negado".
+*/
+
 import java.util.Scanner;
 
-public class VerificacaoSenha{
+public class VerificaSenha{
     
     public static void main(String[] args){
         

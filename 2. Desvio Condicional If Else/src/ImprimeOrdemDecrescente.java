@@ -1,6 +1,10 @@
+/*
+Ler dois númeors e apresentá-los em ordem decrescente.
+*/
+
 import java.util.Scanner;
 
-public class OrdemDecrescente{
+public class ImprimeOrdemDecrescente{
     
     public static void main(String[] args){
         

@@ -1,3 +1,11 @@
+/*
+Faça uma calculadora de operações básicas.
+ - Menos
+ + Mais
+ * Multiplicação
+ / Divisão
+*/
+
 import java.util.Scanner;
 
 public class CalculadoraBasica {

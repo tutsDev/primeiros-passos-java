@@ -1,6 +1,15 @@
+/*
+A prefeitura do Rio de Janeiro abriu uma linha de crédito para os 
+funcionários estatuários.
+O valor máximo da prestação não poderá ultrapassar 30% do salário 
+bruto.
+Fazer um algoritmo que leia o salário bruto e o valor da 
+prestração, informar se o empréstimo pode ou não ser concedido.
+*/
+
 import java.util.Scanner;
 
-public class Emprestimo{
+public class VerificaEmprestimo{
     
     public static void main(String[] args){
         

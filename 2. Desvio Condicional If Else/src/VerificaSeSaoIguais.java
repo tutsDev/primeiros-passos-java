@@ -1,6 +1,13 @@
+/*
+Faça um algoritmo para encontrar o maior número entre 2 númeors 
+inteiros.
+Se forme todos iguais, imprimir: "Os números são iguais";
+Se não, imprimir o maior dos 3 números.
+*/
+
 import java.util.Scanner;
 
-public class MaiorNumero{
+public class VerificaSeSaoIguais{
     
     public static void main(String[] args){
         
