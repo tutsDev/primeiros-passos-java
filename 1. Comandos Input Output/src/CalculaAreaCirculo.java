@@ -1,6 +1,11 @@
+/*
+Faça um algoritmo que calcule e imprima a área de um circulo.
+Considere Pi = 3,14159.
+*/
+
 import java.util.Scanner;
 
-public class AreaCirculo {
+public class CalculaAreaCirculo {
     
     public static void main(String[] args){
 

@@ -1,6 +1,11 @@
+/*
+Faça um algoritmo que leia três notas de um aluno.
+Calcule e mostre a média aritmética do aluno.
+*/
+
 import java.util.Scanner;
 
-public class MediaAritmetica {
+public class CalculaMediaAritmetica {
     
     public static void main(String[] args){
         

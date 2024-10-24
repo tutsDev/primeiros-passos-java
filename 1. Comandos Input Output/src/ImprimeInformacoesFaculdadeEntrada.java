@@ -1,6 +1,13 @@
+/*
+Faça um algoritmo para ler e imprimir em cada linha:
+    - Seu nome completo;
+    - Sua idade;
+    - Seu cruso.
+*/
+
 import java.util.Scanner;
 
-public class ComandoDeEntrada {
+public class ImprimeInformacoesFaculdadeEntrada {
     
     public static void main(String[] args){
 

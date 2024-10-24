@@ -1,3 +1,8 @@
+/*
+Faça um algoritmo que leia quatri números inteiros.
+Calcule e imprima a soma desses números.
+*/
+
 import java.util.Scanner;
 
 public class SomaQuatroNumeros {

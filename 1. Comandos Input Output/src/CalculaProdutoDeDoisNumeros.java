@@ -1,6 +1,11 @@
+/*
+Faça um algoritmo para ler dois números inteiros
+e imprima o seu produto.
+*/
+
 import java.util.Scanner;
 
-public class ProdutoDeDoisNumeros {
+public class CalculaProdutoDeDoisNumeros {
     
     public static void main(String[] args){
         

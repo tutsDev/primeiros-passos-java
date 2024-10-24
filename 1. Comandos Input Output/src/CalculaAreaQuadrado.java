@@ -1,6 +1,10 @@
+/*
+Faça um algoritmo que calcule e imprima a área de um quadrado.
+*/
+
 import java.util.Scanner;
 
-public class AreaQuadrado {
+public class CalculaAreaQuadrado {
     
     public static void main(String[] args){
 
