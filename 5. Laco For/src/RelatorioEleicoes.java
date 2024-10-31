@@ -1,5 +1,19 @@
+/*
+Em uma eleição presidencial, existem quatro candidatos.
+Os votos são informados através de um código:
+¨ 1, 2, 3 ou 4 - Voto para o respectivo candidato
+¨ 5 - Voto nulo
+¨ 6 - Voto em branco
+Faça um algoritmo que leia o voto de 10 eleitores.
+Calcule e mostre:
+¨ a) O total de votos para cada candidato;
+¨ b) O total de votos nulos;
+¨ c) O total de votos em branco;
+¨ d) O percentual dos votos brancos e nulos.
+*/
+
 import java.util.Scanner;
-public class Eleicoes {
+public class RelatorioEleicoes {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System. in);

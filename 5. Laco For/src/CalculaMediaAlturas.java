@@ -1,5 +1,10 @@
+/*
+Faça um algoritmo que receba a idade e a altura de 10 pessoas:
+Calcule e mostre a média das alturas daquelas com mais de 50 anos.
+*/
+
 import java.util.Scanner;
-public class MediaAlturas {
+public class CalculaMediaAlturas {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System. in);

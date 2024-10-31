@@ -1,5 +1,12 @@
+/*
+Faça um algoritmo que receba a idade, a altura e o peso de 10 pessoas, 	calcule e mostre:
+a) A quantidade de pessoas maiores de 50 anos.
+b) A média das alturas das pessoas com idade entre 10 e 20 anos.
+c) A porcentagem de pessoas com peso inferior a 40 quilos.
+*/
+
 import java.util.Scanner;
-public class IdadeAlturaPeso {
+public class RelatorioPessoas {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System. in);

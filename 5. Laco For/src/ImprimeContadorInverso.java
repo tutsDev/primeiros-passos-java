@@ -1,4 +1,8 @@
-public class ContadorInverso {
+/*
+Faça um algoritmo que imprima uma sequência de 100 a 1
+*/
+
+public class ImprimeContadorInverso {
     public static void main(String[] args) {
 
         int i;

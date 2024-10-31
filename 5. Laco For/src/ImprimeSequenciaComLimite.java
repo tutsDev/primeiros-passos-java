@@ -1,5 +1,10 @@
+/*
+Faça um algoritmo que leia um número inteiro e imprima a sequência de 1 a um número 
+limite.
+*/
+
 import java.util.Scanner;
-public class SequenciaLimite {
+public class ImprimeSequenciaComLimite {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System. in);

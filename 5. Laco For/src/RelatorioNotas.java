@@ -1,3 +1,16 @@
+/*
+Faça um algoritmo que receba duas notas de 6 alunos, calcule e mostre:
+a) A média aritmética das duas notas de cada aluno;
+b) Forneça a seguinte mensagem de acordo com a nota:
+    ¨ REPROVADO se média é menor ou igual a 3.
+    ¨ EXAME se média é acima de 3 e menor que 7.
+    ¨ APROVADO maior ou igual a 7
+c) O total de alunos aprovados.
+d) O total de alunos de exame.
+e) O total de alunos reprovados.
+f) A média da classe.
+*/
+
 import java.util.Scanner;
 public class RelatorioNotas {
     public static void main(String[] args) {
