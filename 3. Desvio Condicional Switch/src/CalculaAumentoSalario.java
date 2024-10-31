@@ -1,6 +1,16 @@
+/*
+Um funcionário receberá aumento de acrodo com seu plano de trabalho.
+Faça um algoritmo que leia: O plano de trabalho;
+                            E o salário atual de um funcionário.
+Calcule e imprima o seu novo salário.
+Considere: Plano A - 10%
+           Plano B - 15%
+           Plano C - 20%
+*/
+
 import java.util.Scanner;
 
-public class AumentoSalario {
+public class CalculaAumentoSalario {
     
     public static void main(String[] args){
         
@@ -8,9 +18,9 @@ public class AumentoSalario {
         
         System.out.println("Qual seu plano de trabalho? Escolha uma opção");
         System.out.println("==========Menu de Opções==========");
-        System.out.println("A - 10%");
-        System.out.println("B - 15%");
-        System.out.println("C - 20%");
+        System.out.println("Plano A");
+        System.out.println("Plano B");
+        System.out.println("Plano C");
         System.out.println("==================================");
         String planoTrabalho = input.nextLine();
         

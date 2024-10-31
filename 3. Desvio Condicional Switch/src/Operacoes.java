@@ -1,3 +1,12 @@
+/*
+Faça um algoritmo que receba dois números:
+De acordo com a opção do usuário, execute as operações listadas a seguir:
+M - Média entre dois números;
+S - Diferença entre os dois números;
+P - Produto dos dois números;
+D - Divisão dos primeiro pelo segundo número.
+*/
+
 import java.util.Scanner;
 
 public class Operacoes {
@@ -23,20 +32,20 @@ public class Operacoes {
         switch (opcaoOperacao){
             
             case "M":
-                double media = (num1 + num2) / 2;
-                System.out.println("A média dos números é: " + media);
+                double calculaMedia = (num1 + num2) / 2;
+                System.out.println("A média dos números é: " + calculaMedia);
                 break;
             case "S":
-                double diferenca = num1 - num2;
-                System.out.println("A diferença dos números é de: " + diferenca);
+                double calculaDiferenca = num1 - num2;
+                System.out.println("A diferença dos números é de: " + calculaDiferenca);
                 break;
             case "P":
-                double produto = num1 * num2;
-                System.out.println("O produto dos números é: " + produto);
+                double calculaProduto = num1 * num2;
+                System.out.println("O calculaProduto dos números é: " + calculaProduto);
                 break;
             case "D":
-                double divisao = num1 / num2;
-                System.out.println("A divisão do primeiro pelo segndo é: " + divisao);
+                double calculaDivisao = num1 / num2;
+                System.out.println("A divisão do primeiro pelo segndo é: " + calculaDivisao);
                 break;
             default:
                 System.out.println("Insira uma operação válida");

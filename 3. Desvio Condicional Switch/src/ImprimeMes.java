@@ -1,6 +1,11 @@
+/*
+Faça um algoritmo que leia um número de 1 a 12.
+Imprima o mês correspondente por extenso.
+*/
+
 import java.util.Scanner;
 
-public class Mes {
+public class ImprimeMes {
     
     public static void main(String[] args){
         

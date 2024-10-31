@@ -1,6 +1,11 @@
+/*
+Faça um algoritmo que leia um número de 1 a 7.
+Imprima o dia da semana correspondente, considere que 1 é o Domingo.
+*/
+
 import java.util.Scanner;
 
-public class DiaDaSemana {
+public class ImprimeDiaDaSemana {
     
      public static void main(String[] args){
         

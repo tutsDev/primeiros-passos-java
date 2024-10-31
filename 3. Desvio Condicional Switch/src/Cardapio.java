@@ -1,3 +1,10 @@
+/*
+Faça um algoritmo que: 
+Leia o código do produto e a quantidade;
+Calcule e imprima o valor a ser pago pelo cliente;
+Imprima o nome do produto.
+*/
+
 import java.util.Scanner;
 
 public class Cardapio {
