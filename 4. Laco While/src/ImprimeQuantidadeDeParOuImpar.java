@@ -1,6 +1,11 @@
+/*
+Faça um algoritmo que leia 10 números inteiros e imprima:
+Quantos são pares e quantos são impares.
+*/
+
 import java.util.Scanner;
 
-public class QtdParesImpares {
+public class ImprimeQuantidadeDeParOuImpar {
     
     public static void main(String[] args) {
         

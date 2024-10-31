@@ -1,4 +1,8 @@
-public class MetadeNumeros {
+/*
+Faça um algoritmo que imprima a metade de cada número de 10 a 20.
+*/
+
+public class ImprimeMetadeNumerosDe10a20 {
     
     public static void main(String[] args) {
         

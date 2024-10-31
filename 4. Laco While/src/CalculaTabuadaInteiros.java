@@ -1,6 +1,10 @@
+/*
+Faça um algoritmo que leia um número inteiro e imprima a tabuada desse número
+*/
+
 import java.util.Scanner;
 
-public class TabuadaInteiros {
+public class CalculaTabuadaInteiros {
     
     public static void main(String[] args) {
 

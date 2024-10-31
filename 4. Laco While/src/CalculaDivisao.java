@@ -1,6 +1,10 @@
+/*
+Faça um algoritmo para dividir dois números sem usar o operador de divisão.
+*/
+
 import java.util.Scanner;
 
-public class Dividindo {
+public class CalculaDivisao {
     
     public static void main(String[] args) {
         

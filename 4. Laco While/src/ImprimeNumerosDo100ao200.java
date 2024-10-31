@@ -1,4 +1,8 @@
-public class Contador100ao200 {
+/*
+Escreva um algoritmo que imprima a sequência do número 100 ao 200;
+*/
+
+public class ImprimeNumerosDo100ao200 {
     
     public static void main(String[] args) {
         

@@ -1,6 +1,10 @@
+/*
+Faça um algoritmo para mutiplicar dois números sem usar o operador de mutiplicação.
+*/
+
 import java.util.Scanner;
 
-public class Multiplica{
+public class CalculaMultiplicacao{
 
     public static void main(String[] args) {
 

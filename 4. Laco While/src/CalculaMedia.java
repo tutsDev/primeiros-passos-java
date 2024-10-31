@@ -1,6 +1,13 @@
+/*
+Faça um algoritmo que leia duas notas de 5 alunos.
+Calcule e mostre a média de cada um deles.
+Para cada nota lida, uma verificação deve ser feita.
+Se a nota está entre 0 e 10.
+*/
+
 import java.util.Scanner;
 
-public class Media {
+public class CalculaMedia {
     
     public static void main(String[] args) {
         

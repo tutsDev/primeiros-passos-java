@@ -1,6 +1,12 @@
+/*
+Construir uma algoritmo que leia um número inteiro e imprime a sequência:
+1, 2, 4, 8, 16, 32, 64, 128...
+Enquanto o valor da sequência for menor ou igual ao número lido.
+*/
+
 import java.util.Scanner;
 
-public class Sequencia {
+public class ImprimeSequenciaVezes2 {
     
     public static void main(String[] args) {
         

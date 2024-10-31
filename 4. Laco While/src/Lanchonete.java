@@ -1,3 +1,10 @@
+/*
+Faça um algoritmo que leia o código de um produto e a quantidade que o cliente 
+deseja comprar.
+O cliente pode comprar mais de um produto, pergunte se ele deseja continuar.
+Calcule o valor total a ser pago por cada produto e o valor total da compra.
+*/
+
 import java.util.Scanner;
 
 public class Lanchonete{

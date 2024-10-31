@@ -1,6 +1,11 @@
+/*
+Faça um algoritmo que leia dez números inteiros e positivos.
+Imprima o menor entre eles.
+*/
+
 import java.util.Scanner;
 
-public class Menor {
+public class ImprimeMenor {
     
     public static void main(String[] args) {
         
@@ -8,14 +13,14 @@ public class Menor {
 
         int contador = 1;
         int numero = 0;
-        int resultado = 999999999;
+        int resultado = Integer.MAX_VALUE;
 
         while (contador <= 10) {
-            
+
             System.out.println("Insira o número " + contador + ":");
             numero = input.nextInt();
             contador++;
-
+            
             if (numero < resultado) {
                 resultado = numero;
             }
