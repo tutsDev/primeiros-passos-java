@@ -1,5 +1,11 @@
+/*
+Leia 10 valores inteiros e armazene-os em um vetor.
+(a) faça um laço para imprimir os elementos pares.
+(b) faça um laço para imprimir os elementos ímpares.
+*/
+
 import java.util.Scanner;
-public class DefineParOuImpar {
+public class ImprimeParesEImpares {
 
     public static void main(String[] args) {
 

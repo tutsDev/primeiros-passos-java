@@ -1,3 +1,9 @@
+/*
+Leia 5 nomes de pessoas e armazene-os em um vetor.
+(a) imprima os nomes do último para o primeiro.
+(b) imprima o primeiro e o último nome armazenado
+*/
+
 import java.util.Scanner;
 public class ImprimeNomesUltimoParaPrimeiro {
 

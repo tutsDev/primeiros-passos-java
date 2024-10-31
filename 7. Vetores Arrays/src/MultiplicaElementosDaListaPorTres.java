@@ -1,5 +1,12 @@
+/*
+Leia 5 elementos em um vetor inteiro A.
+Construa um outro vetor B, de mesma dimensão de A,
+sendo que, seus elementos são a multiplicação dos elementos de A por 3.
+Mostre os elementos de B.
+*/
+
 import java.util.Scanner;
-public class MultiplicaElementosDaLista {
+public class MultiplicaElementosDaListaPorTres {
 
     public static void main(String[] args) {
         

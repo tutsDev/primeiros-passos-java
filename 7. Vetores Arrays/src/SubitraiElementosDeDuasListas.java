@@ -1,3 +1,11 @@
+/*
+Leia dois vetores A e B de mesmo tamanho.
+construa o vetor C, de mesmo tamanho,
+cujo elementos de C são a subtração dos elementos de A por B.
+mostre C.
+*/
+
+
 import java.util.Scanner;
 public class SubitraiElementosDeDuasListas {
     

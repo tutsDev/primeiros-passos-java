@@ -1,5 +1,10 @@
+/*
+Leia 10 números inteiros do usuário.
+Armazena-as em um vetor e imprima os números lidos.
+*/
+
 import java.util.Scanner;
-public class LeitorDezNumeros{
+public class ArmazenaImprimeDezNumeros{
 
     public static void main(String[] args) {
 
