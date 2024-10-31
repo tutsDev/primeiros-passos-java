@@ -1,3 +1,7 @@
+/*
+Faça um algoritmo para advinhar um número de 1 a 10
+*/
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -18,11 +22,9 @@ public class AdivinhaNumero {
 
         }
 
-        System.out.println("Parabens, você acertou!");
-
         input.close();
 
-        
+        System.out.println("Parabens, você acertou!");
 
     }
 }
