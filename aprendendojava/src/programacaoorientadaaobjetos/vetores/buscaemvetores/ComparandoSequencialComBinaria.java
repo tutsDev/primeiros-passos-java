@@ -25,7 +25,7 @@ public class ComparandoSequencialComBinaria {
 
         System.out.println("Vetores Ordenados e Aleatórios Instanciados e Preenchidos");
 
-        /*System.out.println("Inicio Buscas com vetores ORDENADOS");
+        System.out.println("Inicio Buscas com vetores ORDENADOS");
 
         System.out.println("    Início Busca Binária - Vetor Ordenado");
         inicioExec = System.currentTimeMillis();
@@ -41,7 +41,7 @@ public class ComparandoSequencialComBinaria {
         duracaoExec = System.currentTimeMillis() - inicioExec;
         System.out.printf("     Fim Busca Sequencial - Duração de %d milisegundos.\n", duracaoExec);
 
-        System.out.println();*/
+        System.out.println();
 
         System.out.println("Inicio Buscas com vetores ALEATÓRIOS");
 
