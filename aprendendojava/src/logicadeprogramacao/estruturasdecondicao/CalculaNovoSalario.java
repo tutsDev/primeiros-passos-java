@@ -1,3 +1,7 @@
+package logicadeprogramacao.estruturasdecondicao;
+
+import java.util.Scanner;
+
 /*Uma empresa precisa reajustar o salário dos seus funcionários, dando um aumento de acordo com alguns fatores. Faça um programa que leia o salário atual,
 o gênero do funcionário e há quantos anos esse funcionário trabalha na empresa. No final, mostre o seu novo salário, baseado na tabela a seguir:
 - Mulheres
@@ -9,10 +13,9 @@ o gênero do funcionário e há quantos anos esse funcionário trabalha na empre
  - de 20 até 30 anos de empresa: +13%
  - mais de 30 anos de empresa: +25%*/
 
-import java.util.Scanner;
 public class CalculaNovoSalario {
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System. in);
 
         String nomeFuncoinario;
@@ -22,7 +25,7 @@ public class CalculaNovoSalario {
         System.out.printf("Digite o seu nome: ");
         nomeFuncoinario = input.nextLine();
         System.out.printf("Olá, %s. Digite seu sexo(1 - Masculino / 2 - Feminino): ", nomeFuncoinario);
-        opcaoSexo = input.nextInt(); 
+        opcaoSexo = input.nextInt();
         System.out.printf("%s, digite seu salário atual: ", nomeFuncoinario);
         salarioFuncionario = input.nextDouble();
         System.out.printf("Agora, digite a quantos anos você está na empresa: ");
@@ -51,7 +54,7 @@ public class CalculaNovoSalario {
 
                 System.out.printf("%s, seu novo salário é de R$%.2f\n", nomeFuncoinario, novoSalario);
                 break;
-        
+
             default:
                 System.out.printf("SEXO INVÁLIDO! Impossível calcular aumento.\n");
                 break;

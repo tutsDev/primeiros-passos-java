@@ -1,3 +1,5 @@
+package logicadeprogramacao.estruturasdecondicao;
+
 /*
 Faça um algoritmo que receba dois números:
 De acordo com a opção do usuário, execute as operações listadas a seguir:
@@ -9,12 +11,12 @@ D - Divisão dos primeiro pelo segundo número.
 
 import java.util.Scanner;
 
-public class Operacoes {
-    
+public class RealizaOperacoesMatematicas {
+
     public static void main(String[] args){
-        
+
         Scanner input = new Scanner(System. in);
-        
+
         System.out.println("Qual operação deseja realizar? Escolha uma opção");
         System.out.println("==========Menu de Opções==========");
         System.out.println("M - Média entre dois números");
@@ -23,14 +25,14 @@ public class Operacoes {
         System.out.println("D - Divisão dos primeiro pelo segundo número");
         System.out.println("==================================");
         String opcaoOperacao = input.nextLine();
-        
+
         System.out.println("Insira o primeiro número para operação");
         double num1 = input.nextDouble();
         System.out.println("Insira o segundo número para operação");
         double num2 = input.nextDouble();
-        
+
         switch (opcaoOperacao){
-            
+
             case "M":
                 double calculaMedia = (num1 + num2) / 2;
                 System.out.println("A média dos números é: " + calculaMedia);
@@ -50,11 +52,11 @@ public class Operacoes {
             default:
                 System.out.println("Insira uma operação válida");
                 break;
-            
+
         }
-        
+
         input.close();
-        
+
     }
 
 }

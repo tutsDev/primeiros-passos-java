@@ -1,21 +1,22 @@
-/*
-Faça um algoritmo que leia um número de 1 a 12.
-Imprima o mês correspondente por extenso.
-*/
+package logicadeprogramacao.estruturasdecondicao;
 
 import java.util.Scanner;
 
+/*Faça um algoritmo que leia um número de 1 a 12.
+Imprima o mês correspondente por extenso.
+*/
+
 public class ImprimeMes {
-    
+
     public static void main(String[] args){
-        
+
         Scanner input = new Scanner(System. in);
-        
+
         System.out.println("Insira um número de 1 à 12 para receber o mês");
         int numMes = input.nextInt();
-        
+
         switch (numMes){
-            
+
             case 1:
                 System.out.println("Janeiro");
                 break;
@@ -56,9 +57,9 @@ public class ImprimeMes {
                 System.out.println("Insira um número válido");
                 break;
         }
-        
+
         input.close();
-        
+
     }
 
 }

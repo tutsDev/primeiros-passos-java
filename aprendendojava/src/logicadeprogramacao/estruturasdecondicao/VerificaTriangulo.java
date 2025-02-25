@@ -1,15 +1,18 @@
-/*Crie um programa que leia o tamanho de três segmentos de reta. Analise seus comprimentos e diga se é possível formar um triângulo com essas retas. 
-Matematicamente, para três segmentos formarem um triângulo, o comprimento de cada lado deve ser menor que a soma dos outros dois.
-[DESAFIO] Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo de triângulo será formado:
- - EQUILÁTERO: todos os lados iguais
- - ISÓSCELES: dois lados iguais
- - ESCALENO: todos os lados diferentes
- */
+package logicadeprogramacao.estruturasdecondicao;
 
 import java.util.Scanner;
+
+/*Crie um programa que leia o tamanho de três segmentos de reta. Analise seus comprimentos e diga se é possível formar um triângulo com essas retas.
+Matematicamente, para três segmentos formarem um triângulo, o comprimento de cada lado deve ser menor que a soma dos outros dois.
+[DESAFIO] Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo de triângulo será formado:
+    - EQUILÁTERO: todos os lados iguais
+    - ISÓSCELES: dois lados iguais
+    - ESCALENO: todos os lados diferentes
+*/
+
 public class VerificaTriangulo {
     public static void main(String[] args) {
-        
+
         Scanner input =  new Scanner(System. in);
 
         int reta1, reta2, reta3;

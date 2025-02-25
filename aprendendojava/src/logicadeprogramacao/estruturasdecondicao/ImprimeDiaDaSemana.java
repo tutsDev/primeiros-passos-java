@@ -1,21 +1,22 @@
-/*
-Faça um algoritmo que leia um número de 1 a 7.
-Imprima o dia da semana correspondente, considere que 1 é o Domingo.
-*/
+package logicadeprogramacao.estruturasdecondicao;
 
 import java.util.Scanner;
 
+/*Faça um algoritmo que leia um número de 1 a 7.
+Imprima o dia da semana correspondente, considere que 1 é Domingo.
+*/
+
 public class ImprimeDiaDaSemana {
-    
-     public static void main(String[] args){
-        
+
+    public static void main(String[] args){
+
         Scanner input = new Scanner(System. in);
-        
+
         System.out.println("Insira um número de 1 à 7 para receber o dia da semana correspondente.");
         int diaSemana = input.nextInt();
-        
+
         switch (diaSemana){
-            
+
             case 1:
                 System.out.println("Domingo");
                 break;
@@ -41,9 +42,9 @@ public class ImprimeDiaDaSemana {
                 System.out.println("Insira um número válido");
                 break;
         }
-        
+
         input.close();
-        
+
     }
 
 }

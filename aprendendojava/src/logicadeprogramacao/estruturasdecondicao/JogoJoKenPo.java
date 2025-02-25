@@ -1,9 +1,12 @@
-/*Crie um jogo de JoKenPo (Pedra-Papel-Tesoura)*/
+package logicadeprogramacao.estruturasdecondicao;
 
 import java.util.Scanner;
+
+/*Crie um jogo de JoKenPo (Pedra-Papel-Tesoura)*/
+
 public class JogoJoKenPo {
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System. in);
 
         String P1, P2;
