@@ -1,15 +1,16 @@
-/*
-Faça um algoritmo que leia a altura e o peso de 10 pessoas.
-Calcule o IMC da pessoa e verifique quantas estão com o IMC entre 18,5 e 24,9 
-que é considerado sem obesidade.
-*/
+package logicadeprogramacao.lacosderepeticao;
 
 import java.util.Scanner;
+
+/*Faça um algoritmo que leia a altura e o peso de 10 pessoas.
+Calcule o IMC da pessoa e verifique quantas estão com o IMC entre 18,5 e 24,9
+que é considerado sem obesidade.
+*/
 
 public class CalculaImcVerificaObesidade {
 
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System. in);
 
         System.out.println("Vamos calcular seu IMC!");
@@ -26,7 +27,7 @@ public class CalculaImcVerificaObesidade {
             peso = input.nextDouble();
 
             System.out.println("Qual sua altura?");
-            altura = input.nextDouble();    
+            altura = input.nextDouble();
 
             imc = peso / (altura * altura) ;
 
@@ -37,13 +38,13 @@ public class CalculaImcVerificaObesidade {
             }
 
             contador++;
-            
+
         }
 
         System.out.println("A quantidade de pessoas sem obesidade é de: " + semObesidade);
 
         input.close();
 
-    } 
+    }
 
 }

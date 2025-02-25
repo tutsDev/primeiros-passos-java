@@ -1,15 +1,16 @@
-/*
-Faça um algoritmo para mutiplicar dois números sem usar o operador de mutiplicação.
-*/
+package logicadeprogramacao.lacosderepeticao;
 
 import java.util.Scanner;
 
-public class CalculaMultiplicacao{
+/*Faça um algoritmo para mutiplicar dois números sem usar o operador de mutiplicação.
+ */
+
+public class MultiplicaDoisNumeros {
 
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System. in);
-        
+
         double numMultiplicando, numMultiplicador;
         double numProduto = 0;
 

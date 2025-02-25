@@ -1,9 +1,12 @@
-/*Crie um contador númerico configuravél*/
+package logicadeprogramacao.lacosderepeticao;
 
 import java.util.Scanner;
-public class ContadorConfiguravel {
+
+/*Crie um contador númerico configuravél*/
+
+public class GeraContadorNumerico {
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System. in);
 
         int inicio, fim, incremento;

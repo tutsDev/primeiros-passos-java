@@ -1,5 +1,8 @@
-/*
-Em uma eleição presidencial, existem quatro candidatos.
+package logicadeprogramacao.lacosderepeticao;
+
+import java.util.Scanner;
+
+/*Em uma eleição presidencial, existem quatro candidatos.
 Os votos são informados através de um código:
 ¨ 1, 2, 3 ou 4 - Voto para o respectivo candidato
 ¨ 5 - Voto nulo
@@ -12,10 +15,9 @@ Calcule e mostre:
 ¨ d) O percentual dos votos brancos e nulos.
 */
 
-import java.util.Scanner;
-public class RelatorioEleicoes {
+public class ImprimeRelatorioEleicoes {
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System. in);
 
         System.out.println("========CANDIDATOS========");
@@ -26,7 +28,7 @@ public class RelatorioEleicoes {
         System.out.println("5 - Voto Nulo");
         System.out.println("6 - Voto em Branco");
         System.out.println("==========================");
-    
+
         int votoEleitor = 0;
 
         int votosCdto1 = 0;
@@ -46,7 +48,7 @@ public class RelatorioEleicoes {
                 votoEleitor = input.nextInt();
 
             } while (votoEleitor < 1 || votoEleitor > 6);
-            
+
 
             switch (votoEleitor) {
                 case 1:

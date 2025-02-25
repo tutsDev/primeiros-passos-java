@@ -1,5 +1,8 @@
-/*
-Faça um algoritmo que receba duas notas de 6 alunos, calcule e mostre:
+package logicadeprogramacao.lacosderepeticao;
+
+import java.util.Scanner;
+
+/*Faça um algoritmo que receba duas notas de 6 alunos, calcule e mostre:
 a) A média aritmética das duas notas de cada aluno;
 b) Forneça a seguinte mensagem de acordo com a nota:
     ¨ REPROVADO se média é menor ou igual a 3.
@@ -11,10 +14,9 @@ e) O total de alunos reprovados.
 f) A média da classe.
 */
 
-import java.util.Scanner;
-public class RelatorioNotas {
+public class ImprimeRelatorioNotas {
     public static void main(String[] args) {
-        
+
         int i = 0;
 
         double nota1 = 0;
@@ -39,14 +41,14 @@ public class RelatorioNotas {
 
             } while (nota1 < 0 || nota1 > 10);
 
-            
+
             do {
 
                 System.out.println("Insira a segunda nota do aluno " + i + ":");
                 nota2 = input.nextDouble();
 
             } while (nota2 < 0 || nota2 > 10);
-            
+
 
             mediaNotas = (nota1 + nota2) / 2;
             acumulaMedia = acumulaMedia + mediaNotas;

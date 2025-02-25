@@ -1,14 +1,15 @@
-/*
-Faça um algoritmo que leia 10 números inteiros e imprima:
-Quantos são pares e quantos são impares.
-*/
+package logicadeprogramacao.lacosderepeticao;
 
 import java.util.Scanner;
 
-public class ImprimeQuantidadeDeParOuImpar {
-    
+/*Faça um algoritmo que leia 10 números inteiros e imprima:
+Quantos são pares e quantos são impares.
+*/
+
+public class ImprimeQtdParOuImpar {
+
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System. in);
 
         int contador = 1;
@@ -17,7 +18,7 @@ public class ImprimeQuantidadeDeParOuImpar {
         int numeros = 0;
 
         while (contador <= 10) {
-            System.out.println("Insira o número " + contador + ":" );
+            System.out.print("Insira o número " + contador + ": " );
             numeros = input.nextInt();
 
             if (numeros % 2 == 0) {
