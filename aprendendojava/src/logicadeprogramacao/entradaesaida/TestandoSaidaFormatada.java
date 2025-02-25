@@ -1,12 +1,15 @@
+package logicadeprogramacao.entradaesaida;
+
 import java.util.Scanner;
-public class TreinandoSaidaFormatada {
+
+public class TestandoSaidaFormatada {
     public static void main(String[] args) {
 
-        /* Para um bom fincionamento no teste, comente os exercícios 
+        /* Para um bom funcionamento no teste, comente os exercícios
         que não deseja testar teste um exercício por vez. */
 
         //EXERCÍCIO 1
-        
+
         Scanner input1 = new Scanner(System. in);
 
         String nome;
@@ -116,5 +119,5 @@ public class TreinandoSaidaFormatada {
 
 
     }
-    
+
 }
