@@ -1,16 +1,17 @@
-/*
-Leia 10 valores inteiros e armazene-os em um vetor.
+package logicadeprogramacao.vetores;
+
+/*Leia 10 valores inteiros e armazene-os em um vetor.
 (a) faça um laço para imprimir os elementos pares.
 (b) faça um laço para imprimir os elementos ímpares.
 */
 
 import java.util.Scanner;
-public class ImprimeParesEImpares {
+public class ImprimeParesImpares {
 
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System. in);
-        
+
         int[] numerosEntrada = new int[10];
         int[] numerosPares = new int[10];
         int[] numerosImpares = new int[10];
@@ -19,14 +20,14 @@ public class ImprimeParesEImpares {
         int countImpares = 0;
 
         for (int i = 0; i < numerosEntrada.length; i++) {
-            
+
             System.out.println("Digite o " + (i + 1) + "° Número:");
             numerosEntrada[i] = input.nextInt();
 
             if (numerosEntrada[i] % 2 == 0) {
 
                 numerosPares[countPares] = numerosEntrada[i];
-                countPares++;  
+                countPares++;
 
             } else {
 
@@ -52,11 +53,11 @@ public class ImprimeParesEImpares {
                 break;
             }
             System.out.println((i + 1) + "° Número Impar: " + numerosImpares[i]);
-            
+
         }
 
         input.close();
 
     }
-    
+
 }

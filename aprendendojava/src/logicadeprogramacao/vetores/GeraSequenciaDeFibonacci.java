@@ -1,10 +1,12 @@
-/* Crie uma função que imprima os valores da Sequência de Fibonacci */
+package logicadeprogramacao.vetores;
 
 import java.util.Scanner;
 
-public class PreenchendoArrayComFibonacci {
+/* Crie uma função que imprima os valores da Sequência de Fibonacci */
+
+public class GeraSequenciaDeFibonacci {
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System. in);
 
         int tamanhoFibonacci;
@@ -15,7 +17,7 @@ public class PreenchendoArrayComFibonacci {
         int [] sequenciaDeFibonacci = new int[tamanhoFibonacci];
 
         for (int i = 0; i < sequenciaDeFibonacci.length; i++) {
-            
+
             if (i <= 1) {
                 sequenciaDeFibonacci[i] = 1;
 

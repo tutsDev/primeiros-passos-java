@@ -1,14 +1,16 @@
-/*
-Leia 5 nomes de pessoas e armazene-os em um vetor.
+package logicadeprogramacao.vetores;
+
+import java.util.Scanner;
+
+/*Leia 5 nomes de pessoas e armazene-os em um vetor.
 (a) imprima os nomes do último para o primeiro.
 (b) imprima o primeiro e o último nome armazenado
 */
 
-import java.util.Scanner;
 public class ImprimeNomesUltimoParaPrimeiro {
 
     public static void main(String[] args) {
-        
+
         Scanner input = new Scanner(System. in);
 
         String[] nomesEntrada = new String[5];

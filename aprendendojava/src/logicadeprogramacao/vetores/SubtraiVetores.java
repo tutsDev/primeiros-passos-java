@@ -1,18 +1,18 @@
-/*
-Leia dois vetores A e B de mesmo tamanho.
+package logicadeprogramacao.vetores;
+
+import java.util.Scanner;
+
+/*Leia dois vetores A e B de mesmo tamanho.
 construa o vetor C, de mesmo tamanho,
 cujo elementos de C são a subtração dos elementos de A por B.
 mostre C.
 */
 
-
-import java.util.Scanner;
-public class SubitraiElementosDeDuasListas {
-    
+public class SubtraiVetores {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System. in);
-        
+
         System.out.println("Quantas subtrações deseja realizar?");
         int tamanhoDaLista = input.nextInt();
 
@@ -21,7 +21,7 @@ public class SubitraiElementosDeDuasListas {
         int[] resultadoSubtracao = new int[tamanhoDaLista];
 
         for (int i = 0; i < primeiroNumeroDaSubtracao.length; i++) {
-            
+
             System.out.println("Digite o primeiro número para " + (i + 1) +"° Subtração:" );
             primeiroNumeroDaSubtracao[i] = input.nextInt();
 
@@ -40,6 +40,4 @@ public class SubitraiElementosDeDuasListas {
         input.close();
 
     }
-
 }
-
