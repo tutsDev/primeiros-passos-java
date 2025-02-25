@@ -1,6 +1,15 @@
+package programacaoorientadaaobjetos.vetores.multidimensionais;
+
 import java.util.Random;
 
-public class ArraysMultidimensionais {
+/*Instancie, Preencha e Imprima vetores:
+    -Unidimensional
+    -Bidimensional
+    -Tridimmensional
+    -Quadridimencional
+*/
+
+public class VetoresMultidimencionais {
     public static void main(String[] args) {
 
         System.out.println("INÍCIO - ARRAY UNIDIMENSIONAL");
@@ -20,7 +29,7 @@ public class ArraysMultidimensionais {
         System.out.println("FIM - ARRAY BIDIMENSIONAL");
         System.out.println();
         System.out.println("INÍCIO - ARRAY TRIDIMENSIONAL");
-        
+
         int[][][] arrayTri = new int[3][3][3];
         PreencheTri(arrayTri);
         ImprimeTri(arrayTri);
