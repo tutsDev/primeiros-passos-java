@@ -47,9 +47,9 @@ public class ExemploBuscaBinaria {
         while (inicioVet <= fimVet) {
             meioVet = (inicioVet + fimVet) / 2;
             if(vet[meioVet] > vlBusca){
-                fimVet = meioVet;
+                fimVet = meioVet - 1;
             } else if(vet[meioVet] < vlBusca) {
-                inicioVet = meioVet;
+                inicioVet = meioVet + 1;
             } else {
                 return true;
             }
@@ -69,9 +69,9 @@ public class ExemploBuscaBinaria {
         while (inicioVet <= fimVet) {
             meioVet = (inicioVet + fimVet) / 2;
             if(vlBusca > vet[meioVet]){
-                inicioVet = meioVet;
+                inicioVet = meioVet + 1;
             } else if(vlBusca < vet[meioVet]) {
-                fimVet = meioVet;
+                fimVet = meioVet - 1;
             } else {
                 return meioVet;
             }
