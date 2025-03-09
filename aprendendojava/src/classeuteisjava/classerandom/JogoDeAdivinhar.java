@@ -1,7 +1,10 @@
-/* Crie um jogo de advinhar com limite de chances */
+package classeuteisjava.classerandom;
 
 import java.util.Random;
 import java.util.Scanner;
+
+/* Crie um jogo de advinhar com limite de chances */
+
 public class JogoDeAdivinhar {
     public static void main(String[] args) {
 
@@ -9,7 +12,7 @@ public class JogoDeAdivinhar {
         Random randon = new Random();
 
         int numEntrada;
-        int sorteadorDeNumeros = 1 + randon.nextInt(5);
+        int sorteadorDeNumeros = randon.nextInt(1, 5 + 1);
         boolean acertou = false;
 
         int count = 4;
@@ -18,7 +21,7 @@ public class JogoDeAdivinhar {
 
             System.out.print("Digite um número de 1 a 5: ");
             numEntrada = input.nextInt();
-            
+
             if (numEntrada == sorteadorDeNumeros) {
                 System.out.print("VOCÊ ACERTOU!");
                 acertou = true;
@@ -42,4 +45,5 @@ public class JogoDeAdivinhar {
 
     }
 }
+
 

@@ -1,10 +1,12 @@
-/*
-Faça um algoritimo que delete um arquivo com base em um número aleatório.
-*/
+package classeuteisjava.classerandom;
 
 import java.util.Scanner;
 import java.util.Random;
 import java.io.File;
+
+/*
+Faça um algoritimo que delete um arquivo com base em um número aleatório.
+*/
 
 public class RoletaRussa {
     public static void main(String[] args){
@@ -30,9 +32,9 @@ public class RoletaRussa {
 
                 System.out.println("Tá com sotre Nengue");
 
-            }  
+            }
 
-        } while (valorRoletaEntrada != valorRoleta); 
+        } while (valorRoletaEntrada != valorRoleta);
 
         input.close();
     }
